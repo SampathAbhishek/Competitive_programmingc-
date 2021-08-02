@@ -27,6 +27,22 @@ int main()
     	}
     	v.push_back(temp);
     }
+/*
+This is another approach where you can actually take an empty vector and utilize it for insertion.
+int x,i;
+	cin>>x;
+	vector < vector <int> > v;
+    for(i=0;i<x;i++){
+    	int n;
+    	cin>>n;
+    	v.push_back(vector <int> ());
+    	for(int j=0;j<n;j++){
+    		int x;
+    		cin>>x;
+    		v[i].push_back(x);
+    	}
+    }
+*/
     cout<<"Vector of vectors:"<<endl;
     for(i=0;i<x;i++){
     	cout<<"Vector "<<i+1<<endl;
