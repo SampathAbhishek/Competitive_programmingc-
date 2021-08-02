@@ -1,0 +1,7 @@
+Array of vectors:
+Vector 0
+1 2 3 
+Vector 1
+10 20 30 40 
+Vector 2
+1 2 3 4 5 
